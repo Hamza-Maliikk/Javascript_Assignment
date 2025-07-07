@@ -1,101 +1,101 @@
 // Ques 1
-// var dt = new Date()
-// console.log(dt)
+var dt = new Date()
+console.log(dt)
 
 // Ques2
-// var crtmonth = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "Octobor", "November", "December"]
-// var dt = new Date()
-// var month = crtmonth[dt.getMonth()]
-// console.log("Current month " + month)
+var crtmonth = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "Octobor", "November", "December"]
+var dt = new Date()
+var month = crtmonth[dt.getMonth()]
+console.log("Current month " + month)
 
 // Ques3
-// var crtday = ["Sun","Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"]
-// var day = new Date()
-// var today  = day.getDay()
-// console.log("Today is " + crtday[today])
+var crtday = ["Sun","Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"]
+var day = new Date()
+var today  = day.getDay()
+console.log("Today is " + crtday[today])
 
 // Ques4
-// var date = new Date().getDay()
-// console.log(date)
+var date = new Date().getDay()
+console.log(date)
 
-// if(date === 0 || date === 6){
-//     document.write("Its Funday")
-// }else{
-//     document.write("Its not a Funday")
-// }
+if(date === 0 || date === 6){
+    document.write("Its Funday")
+}else{
+    document.write("Its not a Funday")
+}
 
 // Ques5
-// var date = new Date().getDate()
-// console.log(date)
+var date = new Date().getDate()
+console.log(date)
 
-// if(date < 16){
-//     alert("First fifteen day of the month")
-// }else if(date > 30){
-//     alert("Last fifteen days of the month")
-// }
+if(date < 16){
+    alert("First fifteen day of the month")
+}else if(date > 30){
+    alert("Last fifteen days of the month")
+}
 
 // Ques6
-// var date  = new Date()
-// document.write(date + "<br>")
+var date  = new Date()
+document.write(date + "<br>")
 
-// var milli = date.getTime()
-// document.write(milli + "<br>")
+var milli = date.getTime()
+document.write(milli + "<br>")
 
-// var minutes = milli / (1000 * 60)
-// document.write(minutes)
+var minutes = milli / (1000 * 60)
+document.write(minutes)
 
 // Ques7
-// var time = new Date().getHours()
-// console.log(time)
+var time = new Date().getHours()
+console.log(time)
 
-// if(time<12){
-//     alert("Its AM")
-// }else {
-//     alert("Its PM")
-// }
+if(time<12){
+    alert("Its AM")
+}else {
+    alert("Its PM")
+}
 
 // Ques8
-// var lastDate = new Date(2020, 11, 31)
-// console.log("Later date " + lastDate)
+var lastDate = new Date(2020, 11, 31)
+console.log("Later date " + lastDate)
 
 
 // Ques9
-// var rmzndt = new Date(2015, 5, 18)
+var rmzndt = new Date(2015, 5, 18)
 
-// var rightdays = new Date()
+var rightdays = new Date()
 
-// var remaining = rightdays - rmzndt
+var remaining = rightdays - rmzndt
 
-// var final = Math.floor(remaining / (1000 * 60 * 60 * 24))
+var final = Math.floor(remaining / (1000 * 60 * 60 * 24))
 
-// console.log(final + " have passed 1st Ramzan since 2015")
+console.log(final + " have passed 1st Ramzan since 2015")
 
 // Ques10
-// var rmzndt = new Date(2015)
+var rmzndt = new Date(2015)
 
-// var rightdays = new Date()
+var rightdays = new Date()
 
-// var remaining = rightdays - rmzndt
+var remaining = rightdays - rmzndt
 
-// var final = Math.floor(remaining / 1000)
+var final = Math.floor(remaining / 1000)
 
-// console.log(final + " had passed")
+console.log(final + " had passed")
 
 // Ques11
-// var hours = new Date()
-// console.log(hours)
+var hours = new Date()
+console.log(hours)
 
-// hours.setFullYear(hours.getFullYear() - 100);
+hours.setFullYear(hours.getFullYear() - 100);
 
-// console.log(hours)
+console.log(hours)
 
 // Ques12
-// var age = Number(prompt("Enter your age "))
-// console.log(age)
-// var current  = new Date()
-// current.setFullYear(current.getFullYear() - age)
+var age = Number(prompt("Enter your age "))
+console.log(age)
+var current  = new Date()
+current.setFullYear(current.getFullYear() - age)
 
-// console.log(current.getFullYear())
+console.log(current.getFullYear())
 
 // Ques13
 var name = prompt("Enter name")
